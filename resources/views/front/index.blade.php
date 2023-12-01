@@ -186,7 +186,7 @@
 						<center><div id="box"></div></center>
 					<!-- <div class="container"> -->
 						<div class="bg-grey clearfix projectContainer portfolio-grid-v2-4-col-container">
-				                <?php $Portfolio = DB::table('portfolio')->inRandomOrder()->limit('12')->get(); ?>
+				                <?php $Portfolio = DB::table('portfolio')->inRandomOrder()->limit('8')->get(); ?>
                                 @foreach($Portfolio as $port)
 								<div class="element-item cat_{{$port->service}}" id="lightgallery" data-src="{{url('/uploads/portfolio/')}}/{{$port->image_one}}">
 									<a target="new" class="portfolio-img-demo" href="{{url('/uploads/portfolio/')}}/{{$port->image_one}}">
