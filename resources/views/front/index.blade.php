@@ -193,9 +193,13 @@
 										<img src="{{url('/uploads/portfolio/')}}/{{$port->image_one}}" class="img-responsive port-image" alt="{{$port->title}}">
 									</a>
 									<div class="project-info">
-										<a target="new" href="{{url('/uploads/portfolio/')}}/{{$port->image_one}}"><h4 class="title-project text-cap text-cap">{{$port->title}}</h4></a>
+										<a target="new" href="{{url('/uploads/portfolio/')}}/{{$port->image_one}}">
+                                            {{-- <h4 class="title-project text-cap text-cap">{{$port->title}}</h4> --}}
+                                        </a>
 										<a target="new" href="{{url('/uploads/portfolio/')}}/{{$port->image_one}}" class="cateProject">{{$port->location}}</a>
-										<a target="new" href="{{url('/uploads/portfolio/')}}/{{$port->image_one}}"><h5 class="title-project text-cap text-cap"> <?php $Category = App\Models\Category::find($port->service) ?> {{$Category->cat}} </h5></a>
+										<a target="new" href="{{url('/uploads/portfolio/')}}/{{$port->image_one}}">
+                                            {{-- <h5 class="title-project text-cap text-cap"> <?php $Category = App\Models\Category::find($port->service) ?> {{$Category->cat}} </h5> --}}
+                                        </a>
 									</div>
 								</div>
 							    @endforeach
