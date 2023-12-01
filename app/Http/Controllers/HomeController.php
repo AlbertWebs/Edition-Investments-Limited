@@ -133,6 +133,10 @@ class HomeController extends Controller
         }
     }
 
+    public function sitemaps(){
+        return response()->file('sitemap.xml');
+    }
+
     public function portfolio()
     {
         $SEOSettings = DB::table('seosettings')->get();

@@ -32,6 +32,8 @@ Route::get('/news/{slug}',[App\Http\Controllers\BlogController::class, 'blog']);
 Route::get('/news/categories/{cat}',[App\Http\Controllers\BlogController::class, 'blogCat']);
 Route::post('/news/addComment',[App\Http\Controllers\BlogController::class, 'add_comment']);
 
+Route::get('/sitemaps',[App\Http\Controllers\HomeController::class, 'sitemaps']);
+
 
 Auth::routes();
 
