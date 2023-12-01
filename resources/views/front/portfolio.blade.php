@@ -40,9 +40,13 @@
                                 <div class="element-item  cat_{{$portfolio->service}}">
                                     <a target="new" class="portfolio-img-demo" href="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}"><img src="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}" class="img-responsive" alt="<?php $Category = App\Models\Category::find($portfolio->service) ?> {{$Category->cat}}"></a>
                                     <div class="project-info">
-                                        <a target="new" href="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}"><h4 class="title-project text-cap text-cap">{{$portfolio->title}}</h4></a>
+                                        <a target="new" href="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}">
+                                            {{-- <h4 class="title-project text-cap text-cap">{{$portfolio->title}}</h4> --}}
+                                        </a>
                                         <a target="new" href="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}" class="cateProject">{{$portfolio->location}}</a>
-                                        <a target="new" href="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}"><h5 class="title-project text-cap text-cap"><?php $Category = App\Models\Category::find($portfolio->service) ?> {{$Category->cat}} </h5></a>
+                                        <a target="new" href="{{url('/')}}/uploads/portfolio/{{$portfolio->image_one}}">
+                                            {{-- <h5 class="title-project text-cap text-cap"><?php $Category = App\Models\Category::find($portfolio->service) ?> {{$Category->cat}} </h5> --}}
+                                        </a>
                                     </div>
                                 </div>
                                 @endforeach
