@@ -35,6 +35,9 @@
 		<!-- Main Style -->
 		<link rel="stylesheet" href="{{asset('theme/style.css')}}">
 
+        {{--  --}}
+        <meta name="google-site-verification" content="pT01xlLLGsPEMx2OehREOWbX4hf2hG-4Zb4kt_GnCdQ" />
+
 		<!-- Headline  -->
 		<!-- <link rel="stylesheet" href="headline/css/reset.css">  -->
 		<link rel="stylesheet" href="{{asset('theme/headline/css/style.css')}}">
