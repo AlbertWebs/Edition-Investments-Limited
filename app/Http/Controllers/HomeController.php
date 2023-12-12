@@ -48,15 +48,15 @@ class HomeController extends Controller
             Twitter::setSite('' . $Settings->twitter . '');
 
             $SEO = '
-            <title>Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta property="og:url" content="'.url('/').'" />
-            <meta property="og:site_name" content="Edition Investments | premier supplier of quality wood based building." />
+            <meta property="og:site_name" content="Edition Investments | Premier Supplier of Quality Wood Based Interiors." />
             <meta property="og:locale" content="en_US" />
             <meta property="og:type" content="website" />
-            <meta property="og:title" content="Edition Investments | premier supplier of quality wood based building." />
+            <meta property="og:title" content="Edition Investments | Premier Supplier of Quality Wood Based Interiors." />
             <meta property="og:description" content="Inspiring and warm interiors" />
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:title" content="Edition Investments | premier supplier of quality wood based building." />
+            <meta name="twitter:title" content="Edition Investments | Premier Supplier of Quality Wood Based Interiors." />
             <meta name="twitter:description" content="Inspiring and warm interiors" />
             <link rel="canonical" href="'.url('/').'" />
             ';
@@ -92,7 +92,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>About us | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>About us | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="About Us Edition Investments is the premier supplier of quality wood based construction material. We mainly supply to retailers and property developers.  Learn more Edition Investments Our story Quality Hardwood The best quality hardwood products Over the years, we have built valuable relationships with architects and interior designers who trust&hellip;" />
             <link rel="canonical" href="'.url('/about-us').'" />
@@ -123,7 +123,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>Products and Services | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Products and Services | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Products and Services Edition Investments is the premier supplier of quality wood based construction material. We mainly supply to retailers and property developers.  Learn more Edition Investments Our story Quality Hardwood The best quality hardwood products Over the years, we have built valuable relationships with architects and interior designers who trust&hellip;" />
             <link rel="canonical" href="'.url('/products-and-services').'" />
@@ -158,7 +158,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>Our Portfolio | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Our Portfolio | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Portfolio Edition Investments is the premier supplier of quality wood based construction material. We mainly supply to retailers and property developers.  Learn more Edition Investments Our story Quality Hardwood The best quality hardwood products Over the years, we have built valuable relationships with architects and interior designers who trust&hellip;" />
             <link rel="canonical" href="'.url('/portfolio').'" />
@@ -192,7 +192,7 @@ class HomeController extends Controller
 
                 $keywords = 'Hardwoord Fitouts';
                 $SEO = '
-                <title>'.$category.' | Edition Investments | premier supplier of quality wood based building.</title>
+                <title>'.$category.' | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <meta name="description" content="Portfolio Edition Investments is the premier supplier of quality wood based construction material. We mainly supply to retailers and property developers.  Learn more Edition Investments Our story Quality Hardwood The best quality hardwood products Over the years, we have built valuable relationships with architects and interior designers who trust&hellip;" />
                 <link rel="canonical" href="'.url('/our-work').'" />
@@ -228,7 +228,7 @@ class HomeController extends Controller
                 $keywords = 'Hardwoord Fitouts';
 
             $SEO = '
-            <title> '.$page_name.' | Edition Investments | premier supplier of quality wood based building.</title>
+            <title> '.$page_name.' | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Portfolio Edition Investments is the premier supplier of quality wood based construction material. We mainly supply to retailers and property developers.  Learn more Edition Investments Our story Quality Hardwood The best quality hardwood products Over the years, we have built valuable relationships with architects and interior designers who trust&hellip;" />
             <link rel="canonical" href="'.url('/portfolio').'" />
@@ -260,7 +260,7 @@ class HomeController extends Controller
             $keywords = 'Hardwoord Fitouts';
 
             $SEO = '
-            <title>Contact us | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Contact us | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Contact us We are always on hand to give you the professional, expert and friendly support that you need. Contact us today to and get started.  Contact us anytime We always strive to respond to inquiries as soon as we can." />
             <link rel="canonical" href="'.url('/contact-us').'" />
@@ -291,7 +291,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>News and Blogs | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>News and Blogs | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="News and Blogs Edition Investments is always on hand to give you the professional, expert and friendly support that you need. Contact us today to and get started.  Contact us anytime We always strive to respond to inquiries as soon as we can." />
             <link rel="canonical" href="'.url('/news-and-blog').'" />
@@ -322,7 +322,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>Copyright | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Copyright | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Copyright Edition Investments is always on hand to give you the professional, expert and friendly support that you need. Contact us today to and get started.  Contact us anytime We always strive to respond to inquiries as soon as we can." />
             <link rel="canonical" href="'.url('/copyright').'" />
@@ -353,7 +353,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>Terms and Conditions | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Terms and Conditions | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Terms and Conditions Edition Investments is always on hand to give you the professional, expert and friendly support that you need. Contact us today to and get started.  Contact us anytime We always strive to respond to inquiries as soon as we can." />
             <link rel="canonical" href="'.url('/terms-and-conditions').'" />
@@ -384,7 +384,7 @@ class HomeController extends Controller
 
             $keywords = 'Hardwoord Fitouts';
             $SEO = '
-            <title>Privacy Policy | Edition Investments | premier supplier of quality wood based building.</title>
+            <title>Privacy Policy | Edition Investments | Premier Supplier of Quality Wood Based Interiors.</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="Privacy Policy Edition Investments is always on hand to give you the professional, expert and friendly support that you need. Contact us today to and get started.  Contact us anytime We always strive to respond to inquiries as soon as we can." />
             <link rel="canonical" href="'.url('/privacy-policy').'" />
