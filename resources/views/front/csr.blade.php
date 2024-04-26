@@ -78,8 +78,42 @@
                         </div>
                     </div>
                 </div>
+                <style>
+                    .cat_{
+
+                    }
+                </style>
+                {{--  --}}
+                <section class="padding  padding-bottom-0" >
+                    <div class="col-lg-12" >
+                        <div class="clearfix ">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <img style="max-width:350px; height:auto" src="{{url('/')}}/uploads/csr/1.jpg" class="img-responsive" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img style="max-width:350px; height:auto" src="{{url('/')}}/uploads/csr/2.jpg" class="img-responsive" alt=""></a>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <img style="max-width:350px; height:197px" src="{{url('/')}}/uploads/csr/3.jpg" class="img-responsive" alt=""></a>
+                                    </div>
+                                </div>
+                                {{--  --}}
+
+                                {{--  --}}
+
+                        </div>  <!-- End project Container -->
+                    </div>
+                </section>
+                {{--  --}}
             </div>
         </section>
+
+
+
+
+
+
 
 
 
