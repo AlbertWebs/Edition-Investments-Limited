@@ -30,6 +30,16 @@
                             <div class="clearfix"></div>
                             <div class="panel-group" id="accordion2">
                                 <div class="panel panel-default">
+                                    {{--  --}}
+                                    <div class="blog-detail">
+
+
+                                        <div class="lastest-news-detail">
+                                            <img src="{{url('/')}}/uploads/blog/" class="img-responsive" alt="Image">
+
+                                        </div>
+                                    </div>
+                                    {{--  --}}
 
                                     <div id="collapseOne2" class="panel-collapse collapse in">
                                         <div class="panel-body">
@@ -41,7 +51,7 @@
                                                     <p>At Edition Investments, we believe in the profound impact businesses can have on society and the environment. We are committed to making a positive difference in the world around us, and our Corporate Social Responsibility (CSR) initiatives reflect this commitment.</p>
 
                                                     <h3>Planting the Seeds of Change</h3>
-                                                    <p>For the past five years, Edition Investments has been dedicated to environmental stewardship through our tree planting initiatives. We are proud to announce that, thanks to our concerted efforts and partnerships with environmental organizations, we have planted over 10 thousand trees in regions around the globe.</p>
+                                                    <p>For the past five years, Edition Investments has been dedicated to environmental stewardship through our tree planting initiatives. We are proud to announce that, thanks to our concerted efforts and partnerships with environmental organizations, we have planted over 10 thousand trees within the region.</p>
 
                                                     <h3>Why Trees Matter</h3>
                                                     <p>Trees are the lungs of our planet, playing a crucial role in combating climate change by absorbing carbon dioxide and releasing oxygen. They provide habitats for wildlife, help prevent soil erosion, and contribute to cleaner air and water. By planting trees, we are investing in a healthier, more sustainable future for generations to come.</p>
