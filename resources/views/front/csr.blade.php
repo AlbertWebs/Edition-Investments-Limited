@@ -35,7 +35,7 @@
 
 
                                         <div class="lastest-news-detail">
-                                            <img src="{{url('/')}}/uploads/blog/" class="img-responsive" alt="Image">
+                                            <img src="{{url('/')}}/uploads/csr/0041.jpg" class="img-responsive" alt="Image">
 
                                         </div>
                                     </div>
