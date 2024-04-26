@@ -137,6 +137,45 @@ class HomeController extends Controller
         return response()->file('sitemap.xml');
     }
 
+
+    public function csr()
+    {
+        $SEOSettings = DB::table('seosettings')->get();
+        foreach ($SEOSettings as $Settings) {
+            SEOMeta::setTitle('' . $Settings->sitename . ' - ' . $Settings->intro . '');
+            SEOMeta::setDescription('Best interior Fitouts in Nairobi');
+            SEOMeta::setCanonical('' . $Settings->url . '');
+            OpenGraph::setDescription('' . $Settings->welcome . '');
+            OpenGraph::setTitle('' . $Settings->sitename . ' - ' . $Settings->welcome . '');
+            OpenGraph::setUrl('' . $Settings->url . '');
+            OpenGraph::addProperty('type', 'articles');
+            Twitter::setTitle('' . $Settings->sitename . ' - ' . $Settings->welcome . '');
+            Twitter::setSite('' . $Settings->twitter . '');
+
+            $SEO = '
+            <title>Edition Investments CSR | Premier Supplier of Quality Wood Based Interiors.</title>
+            <meta property="og:url" content="'.url('/csr').'" />
+            <meta property="og:site_name" content="Edition Investments CSR | Premier Supplier of Quality Wood Based Interiors." />
+            <meta property="og:locale" content="en_US" />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content="Edition Investments CSR | Premier Supplier of Quality Wood Based Interiors." />
+            <meta property="og:description" content="At Edition Investments, we believe in the profound impact businesses can have on society and the environment. " />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:title" content="Edition Investments CSR | Premier Supplier of Quality Wood Based Interiors." />
+            <meta name="twitter:description" content="At Edition Investments, we believe in the profound impact businesses can have on society and the environment. s" />
+            <link rel="canonical" href="'.url('/csr').'" />
+            ';
+
+            $page_name = 'csr';
+            $page_title = 'Home Page';
+
+            $keywords = 'Hardwoord Fitouts';
+
+
+            return view('front.csr', compact( 'keywords', 'page_title', 'page_name','SEO'));
+        }
+    }
+
     public function portfolio()
     {
         $SEOSettings = DB::table('seosettings')->get();

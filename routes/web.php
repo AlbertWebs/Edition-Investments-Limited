@@ -27,11 +27,12 @@ Route::get('/copyright',[App\Http\Controllers\HomeController::class, 'copyright'
 Route::post('/submitMessage',[App\Http\Controllers\HomeController::class, 'submitMessage']);
 Route::post('/getQuote',[App\Http\Controllers\HomeController::class, 'getQuote']);
 Route::post('/subscribe',[App\Http\Controllers\HomeController::class, 'subscribe']);
+Route::get('/csr',[App\Http\Controllers\HomeController::class, 'csr']);
+
 
 Route::get('/news/{slug}',[App\Http\Controllers\BlogController::class, 'blog']);
 Route::get('/news/categories/{cat}',[App\Http\Controllers\BlogController::class, 'blogCat']);
 Route::post('/news/addComment',[App\Http\Controllers\BlogController::class, 'add_comment']);
-
 Route::get('/sitemaps',[App\Http\Controllers\HomeController::class, 'sitemaps']);
 
 
