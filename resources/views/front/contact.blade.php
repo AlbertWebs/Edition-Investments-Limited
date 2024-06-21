@@ -20,7 +20,7 @@
 										@if(Session::has('message'))
 													  <div class="alert alert-success">{{ Session::get('message') }}</div>
 									   @endif
-									
+
 									   @if(Session::has('messageError'))
 													  <div class="alert alert-danger">{{ Session::get('messageError') }}</div>
 									   @endif
@@ -45,7 +45,7 @@
 												 <input type="checkbox" name="faxonly" id="faxonly" />
 												</label>
 											</div>
-											
+
 										</div>
 										<div class="input-content" style="padding:15px">
 											<div class="form-group form-textarea">
@@ -57,12 +57,12 @@
 										<?php
 										$ops = array('-', '+');
 										$answer = -1;
-									
+
 										$num1 = rand(0, 15);
 										$num2 = rand(0, 15);
 
 										$answer = $num1 + $num2;
-										
+
 										?>
 										<div id="math" style="display:none">
 											<input type="hidden" name="correct_answer" id="correct_answer" value="{{$answer}}">
@@ -78,7 +78,7 @@
 											<div class="clearfix"></div>
 										</div>
 										<br>
-									
+
 										{{--  --}}
 										<div class="form-group col-sm-12" style="padding:15px" id="TheCapcha">
 											{{-- <div class="col-lg-12 col-md-12" id="TheCapcha"> --}}
@@ -95,10 +95,10 @@
 												document.getElementById("TheCapcha").style.display = "none";
 											}
 										</script>
-										
+
 										<p style="color:#ffffff" id="Loading"></p>
 										<input type="submit"  class="ot-btn btn-main-color btn-long text-cap btn-submit" id="Button" disabled="disabled">
-									</form> 
+									</form>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
             </section>
 			<!-- End Section -->
 		<!-- breadcrumbs -->
-       
+
 			<!-- Map -->
 			<section id="map" class="no-padding-bot" style="line-height: 0;">
 					<div class="row">
