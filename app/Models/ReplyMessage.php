@@ -24,8 +24,8 @@ class ReplyMessage extends Model
     $appEmail = config('mail.username');
 
 
-    $FromVariable = $appEmail;
-    $FromVariableName = $appName;
+    $FromVariable = "Edition Investments";
+    $FromVariableName = "info@editioninvestments.com";
 
     $toVariable = $to;
     $toVariableName = $name;
