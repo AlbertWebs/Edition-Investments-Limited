@@ -161,7 +161,7 @@ class ReplyMessage extends Model
 
         Mail::send('mailcontact', $data, function($message) use ($subject,$FromVariable,$FromVariableName,$toVariable,$toVariableName,$email,$name){
             $message->from($FromVariable , $FromVariableName);
-            $message->to($toVariable, $toVariableName)->cc('albertmuhatia@gmail.com')->replyTo($email , $name)->subject($subject);
+            $message->to($toVariable, $toVariableName)->cc('albertmuhatia@gmail.com')->subject($subject);
         });
     }
 
@@ -177,7 +177,7 @@ class ReplyMessage extends Model
         );
         $subject = $subject;
         $appName = "Edition Investments Limited";
-        $appEmail = "info@designekta.com";
+        $appEmail = "info@editioninvestments.com";
 
 
         $FromVariable = $appEmail;
