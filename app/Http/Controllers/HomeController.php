@@ -464,11 +464,7 @@ class HomeController extends Controller
                 ReplyMessage::mailNotificaton($name, $email, $subject, $message);
 
 
-                $Message->save();
-                $Notifications = new Notifications;
-                $Notifications->type = 'Message';
-                $Notifications->content = 'You have a new Message';
-                $Notifications->save();
+
 
                 Session::flash('message', "Your Message Has Been Sent");
                 return Redirect::back();
